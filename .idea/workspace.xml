@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d29dd3a-85de-4f59-9b54-f8d2c0bfbe28" name="Changes" comment="folio">
+    <list default="true" id="0d29dd3a-85de-4f59-9b54-f8d2c0bfbe28" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/images/cube_de_menger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presentation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/competence1.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/competence2.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/competence3.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/competence4.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/competence5.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/competence6.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,33 +39,41 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/AlexisCerda/portFolio.git&quot;,
-    &quot;accountId&quot;: &quot;dd0c3186-d61a-4d61-a5f9-c02e96d291d7&quot;
+    &quot;accountId&quot;: &quot;ec5872e8-b1b6-439f-906a-0911619d6139&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2xlZD4SiGTxa4Lef8tOub1D4qeT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\khaos\OneDrive\Bureau\TD\Java\TD Java FX\portFolio\images" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,24 +89,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748514498102</updated>
-      <workItem from="1748514499180" duration="2263000" />
-      <workItem from="1749751927257" duration="22000" />
+      <workItem from="1748514499180" duration="1867000" />
+      <workItem from="1749199371409" duration="168000" />
+      <workItem from="1749200367268" duration="4000" />
+      <workItem from="1749622528686" duration="8090000" />
     </task>
-    <task id="LOCAL-00001" summary="folio">
+    <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
-      <created>1748517322206</created>
+      <created>1749623015713</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1748517322206</updated>
+      <updated>1749623015713</updated>
     </task>
-    <task id="LOCAL-00002" summary="folio">
+    <task id="LOCAL-00002" summary="init">
       <option name="closed" value="true" />
-      <created>1748517346676</created>
+      <created>1749623184036</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1748517346676</updated>
+      <updated>1749623184036</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
@@ -99,7 +117,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="folio" />
-    <option name="LAST_COMMIT_MESSAGE" value="folio" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

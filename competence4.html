@@ -5,60 +5,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio - Compétence 4</title>
   <style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 40px; background-color: #ffffff; color: #2c3e50; }
-    h1, h2 { color: #1a252f; border-bottom: 2px solid #ccc; padding-bottom: 5px; }
-    p, li { line-height: 1.6; }
-    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-    th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-    th { background-color: #f4f4f4; }
-    .section { margin-bottom: 40px; }
-    .nav { margin-top: 50px; }
-    a { text-decoration: none; color: #0066cc; }
-    .rating-bar { display: flex; gap: 2px; }
-    .rating-segment { width: 20px; height: 20px; background-color: #e0e0e0; border-radius: 2px; }
-    .filled { background-color: #4caf50; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #e0f0ff, #f0f7ff);
+      color: #2c3e50;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #2980b9;
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #21618c;
+      border-left: 6px solid #5dade2;
+      padding-left: 15px;
+      margin-top: 40px;
+      font-size: 1.6em;
+    }
+    h3 {
+      color: #2980b9;
+      font-size: 1.3em;
+      margin-top: 30px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    p, li {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+    ul {
+      margin-top: 15px;
+      padding-left: 25px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccdff5;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #eaf4fd;
+    }
+    .rating-bar {
+      display: flex;
+      gap: 2px;
+    }
+    .rating-segment {
+      width: 20px;
+      height: 20px;
+      background-color: #e0e0e0;
+      border-radius: 2px;
+    }
+    .filled {
+      background-color: #3498db;
+    }
   </style>
 </head>
 <body>
+<div class="container">
+  <h1>Compétence 4 : Gérer des données de l'information</h1>
 
-<h1>Compétence 4 : Gérer des données de l'information</h1>
-
-<div class="section">
-  <h2>Quel était le projet ?</h2>
-  <p>Créer une base de données à partir d’un cahier des charges, l’interroger en SQL, et en visualiser les données à l’aide de Power BI.</p>
-</div>
-
-<div class="section">
-  <h2>Organisation collaborative</h2>
-  <p>Travail en binôme. Un partenaire était chargé de la conception du modèle, l’autre de l’écriture des requêtes et de la visualisation.</p>
-</div>
-
-<div class="section">
-  <h2>Étapes, difficultés</h2>
-  <ul>
-    <li>Analyse du cahier des charges</li>
-    <li>Modélisation relationnelle</li>
-    <li>Création des tables et insertion de données</li>
-    <li>Création de vues et requêtes complexes</li>
-    <li>Rapports dynamiques sous Power BI</li>
-  </ul>
-  <p>Des jointures mal conçues ont posé problème, corrigées avec des vues intermédiaires.</p>
-</div>
-
-<div class="section">
-  <h2>Traces justificatives</h2>
-  <ul>
-    <li>Fichier Power BI final</li>
-    <li>Code SQL documenté dans le projet</li>
-  </ul>
-</div>
-
-<div class="section">
-  <h2>Point d'amélioration</h2>
-  <p>Utiliser davantage les outils de validation des schémas, comme les contraintes d’intégrité et les diagrammes ER automatisés.</p>
-</div>
-
-<div class="section">
   <h2>Autoévaluation</h2>
   <table>
     <thead>
@@ -70,27 +91,94 @@
     </thead>
     <tbody>
     <tr>
-      <td>AC 1 : Analyser un besoin et modéliser des données</td>
-      <td><div class="rating-bar"><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment"></div><div class="rating-segment"></div></div></td>
-      <td>Modèle relationnel correct, mais manque d’usage des cardinalités complexes.</td>
+      <td>AC 1 : Mettre à jour et interroger une base de données relationnelle </td>
+      <td>
+        <div class="rating-bar">
+          <div class="rating-segment filled"></div><div class="rating-segment filled"></div>
+          <div class="rating-segment filled"></div><div class="rating-segment filled"></div>
+          <div class="rating-segment"></div>
+        </div>
+      </td>
+      <td>Bonne maîtrise de la modélisation relationnelle et SQL.</td>
     </tr>
     <tr>
-      <td>AC 2 : Mettre en place une base de données</td>
-      <td><div class="rating-bar"><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment"></div></div></td>
-      <td>Base fonctionnelle, avec données testées et requêtes réussies.</td>
+      <td>AC 2 : Interroger une base de données</td>
+      <td>
+        <div class="rating-bar">
+          <div class="rating-segment filled"></div><div class="rating-segment filled"></div>
+          <div class="rating-segment filled"></div><div class="rating-segment filled"></div>
+          <div class="rating-segment filled"></div>
+        </div>
+      </td>
+      <td>Utilisation de requêtes complexes avec jointures et vues.</td>
     </tr>
     <tr>
-      <td>AC 3 : Interroger une base de données avec SQL</td>
-      <td><div class="rating-bar"><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment"></div></div></td>
-      <td>Utilisation avancée de jointures, de groupement et d’agrégats.</td>
-    </tr>
-    <tr>
-      <td>AC 4 : Représenter des données pour l’analyse</td>
-      <td><div class="rating-bar"><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment"></div><div class="rating-segment"></div></div></td>
-      <td>Rapport clair sous Power BI, mais peu d’interactions ou de filtres dynamiques utilisés.</td>
+      <td>AC 3 : Visualiser les données</td>
+      <td>
+        <div class="rating-bar">
+          <div class="rating-segment filled"></div><div class="rating-segment filled"></div>
+          <div class="rating-segment filled"></div><div class="rating-segment"></div>
+          <div class="rating-segment"></div>
+        </div>
+      </td>
+      <td>Première utilisation de Power BI avec filtres et graphiques.</td>
     </tr>
     </tbody>
   </table>
+
+  <h2>SAE S1</h2>
+
+  <h3>Quel était le projet ?</h3>
+  <p>Créer une base de données à partir d’un cahier des charges, l’interroger en SQL, et en visualiser les données à l’aide de Power BI.</p>
+
+  <h3>Organisation collaborative</h3>
+  <p>Travail en binôme. Un partenaire était chargé de la conception du modèle, l’autre de l’écriture des requêtes et de la visualisation.</p>
+
+  <h3>Étapes, difficultés</h3>
+  <ul>
+    <li>Analyse du cahier des charges</li>
+    <li>Modélisation relationnelle</li>
+    <li>Création des tables et insertion de données</li>
+    <li>Création de vues et requêtes complexes</li>
+    <li>Rapports dynamiques sous Power BI</li>
+  </ul>
+  <p>Des jointures mal conçues ont posé problème, corrigées avec des vues intermédiaires.</p>
+
+  <h3>Traces justificatives</h3>
+  <ul>
+    <li>Fichier Power BI final</li>
+    <li>Code SQL documenté dans le projet</li>
+  </ul>
+
+  <h3>Point d'amélioration</h3>
+  <p>Utiliser davantage les outils de validation des schémas, comme les contraintes d’intégrité et les diagrammes ER automatisés.</p>
+
+  <h2>SAE S2</h2>
+
+  <h3>Quel était le projet ?</h3>
+  <p>Créer une base de données à partir d’un cahier des charges, l’interroger en SQL, et en visualiser les données à l’aide de Power BI.</p>
+
+  <h3>Organisation collaborative</h3>
+  <p>Travail en binôme. Un partenaire était chargé de la conception du modèle, l’autre de l’écriture des requêtes et de la visualisation.</p>
+
+  <h3>Étapes, difficultés</h3>
+  <ul>
+    <li>Analyse du cahier des charges</li>
+    <li>Modélisation relationnelle</li>
+    <li>Création des tables et insertion de données</li>
+    <li>Création de vues et requêtes complexes</li>
+    <li>Rapports dynamiques sous Power BI</li>
+  </ul>
+  <p>Des jointures mal conçues ont posé problème, corrigées avec des vues intermédiaires.</p>
+
+  <h3>Traces justificatives</h3>
+  <ul>
+    <li>Fichier Power BI final</li>
+    <li>Code SQL documenté dans le projet</li>
+  </ul>
+
+  <h3>Point d'amélioration</h3>
+  <p>Utiliser davantage les outils de validation des schémas, comme les contraintes d’intégrité et les diagrammes ER automatisés.</p>
 </div>
 </body>
 </html>
