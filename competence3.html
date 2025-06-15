@@ -92,23 +92,47 @@
     <tbody>
     <tr>
       <td>AC 1 : Identifier les différents composants d'un système numérique</td>
-      <td><div class="rating-bar"><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment"></div></div></td>
-      <td>Installation complète réussie avec dual boot et configuration réseau.</td>
+      <td><div class="rating-bar">
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment"></div>
+      </div></td>
+      <td>Comprendre exactement comment fonctionne un ordinateur et un serveur web en prenant en compte leurs procédures</td>
     </tr>
     <tr>
       <td>AC 2 : Utiliser les fonctionnalités de base d'un système multitâches / multiutilisateurs</td>
-      <td><div class="rating-bar"><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment"></div></div></td>
-      <td>Utilisation des commandes shell pour manipulation de fichiers et configuration.</td>
+      <td><div class="rating-bar">
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment"></div></div>
+      </td>
+      <td>Utilisation des commandes shell pour manipulation de fichiers et configuration. Puis faire fonctionner un serveur web avec différente fonctionnalité comme la restriction d'accès et la lecture de formulaire. </td>
     </tr>
     <tr>
       <td>AC 3 : Installer et configurer un système d'exploitation et des outils de développement</td>
-      <td><div class="rating-bar"><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div></div></td>
-      <td>Notice très détaillée avec captures à chaque étape.</td>
+      <td><div class="rating-bar">
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+      </div></td>
+      <td>Ce renseigné sur tout ce qui est faisable et choisir la meilleure option selon une demande client. Puis justifié et installer sur une machine.</td>
     </tr>
     <tr>
       <td>AC 4 : Configurer un poste de travail dans un réseau d'entreprise</td>
-      <td><div class="rating-bar"><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment filled"></div><div class="rating-segment"></div><div class="rating-segment"></div></div></td>
-      <td>Difficulté sur les pilotes, résolue grâce à des forums et essais manuels.</td>
+      <td><div class="rating-bar">
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment filled"></div>
+        <div class="rating-segment"></div>
+        <div class="rating-segment"></div>
+      </div></td>
+      <td>Choisir les logiciels appropriés pour le travail envisagé. Puis mettre en place des droits différents pour les différents utilisateurs.</td>
     </tr>
     </tbody>
   </table>
@@ -143,29 +167,42 @@
   <h2>SAE S2</h2>
 
   <h3>Quel était le projet ?</h3>
-  <p>Le projet consistait à installer un système Linux sur une machine, le configurer en tant que poste de développement et produire un compte-rendu détaillé avec captures d'écran et retour d'expérience.</p>
+  <p>Le projet consistait à developer un serveur web en Java.
+  Pouvant recevoir les requêtes et y répondre, prendre les images, vidéos, sons, formulaire. Avoir accès à un port précis. Répondre à un fichier de configuration. Enregistré les accès et les erreurs dans des fichiers textes.
+    Autorisé ou refusé l'accès à des réseaux à partir de leurs IP. Enfin pour proposer un lecteur de fichier en cas de manque d'index.
+    Nous avons repris la préparation à cette SAE réalisé en cours, qui était de faire un serveur Web fonctionnel pouvant lire les images et renvoyer le page demandé.
+  </p>
 
   <h3>Organisation collaborative</h3>
-  <p>Travail en binôme, chacun a installé son propre poste. Relecture croisée des notices d’installation.</p>
+  <p>Travail en binôme avec Logan SAGET, au lieu de répartir le travail sur deux machines différentes puis de le rassemblé, nous avons fait tout le projet sur une seule machine à deux. Cela implique une meilleure concentration et une durée plus longue. Cependant,
+  pour un travail de cette difficulté, nous avons préféré cette organisation pour ne pas rester bloqué à une étape et pour faciliter la compréhension du sujet.
+  </p>
 
   <h3>Étapes, difficultés</h3>
   <ul>
-    <li>Choix de la distribution et configuration UEFI/BIOS</li>
-    <li>Partitionnement manuel du disque</li>
-    <li>Installation des outils de développement</li>
-    <li>Résolution de conflits de paquets et de pilotes</li>
+    <li>Modification du serveur web d'origine</li>
+    <li>Mise en place de chaque fonctionnalité</li>
+    <li>Vérification sur des pages HTML</li>
+    <li>Mise en forme du compte rendu</li>
   </ul>
-  <p>Difficulté rencontrée : carte Wi-Fi non reconnue, résolue en installant un pilote tiers.</p>
+  <p>Difficulté rencontrée : </p>
+  <p> L’un des principaux défis a été de modifier et d’enrichir le serveur web initial pour y intégrer des fonctionnalités avancées, telles que la gestion des fichiers multimédias,
+    l’interprétation des fichiers de configuration ou encore le filtrage des adresses IP. Certaines de ces fonctionnalités nécessitaient une compréhension fine du protocole HTTP et de la manipulation des flux en Java,
+    ce qui a parfois ralenti notre progression. De plus, le fait de travailler à deux sur une seule machine, bien que bénéfique pour la concentration, a aussi allongé la durée de certaines phases, notamment lors du codage,
+    où l’alternance entre les deux membres pouvait limiter la fluidité. Enfin, la gestion des erreurs, l’écriture dans les fichiers logs et
+    le traitement des requêtes non prévues ont exigé de nombreux tests et ajustements pour garantir un comportement stable et conforme aux attentes.</p>
 
   <h3>Traces justificatives</h3>
   <p>Toutes les images sont en dessous dans le même ordre</p>
   <ul>
-    <li>Notice complète d'installation avec captures</li>
-    <li>Logs de la configuration réseau et terminal</li>
+    <li>Diagramme de classe</li>
+    <li>Image du fichier de configuration</li>
+    <li>Code pouvant envoyer une page web</li>
   </ul>
 
   <h3>Point d'amélioration</h3>
-  <p>Ajouter un script d’installation automatique avec détection de l’environnement matériel.</p>
+  <p>Meilleure gestion du temps de développement : Travailler à deux sur une seule machine a permis une compréhension partagée, mais a ralenti certaines phases de production. Une répartition plus équilibrée entre travail individuel (pour les tâches parallélisables) et travail en binôme (pour les étapes complexes) aurait permis un meilleur rendement.</p>
+  <p>Automatisation des tests : Mettre en place des tests automatisés (unitaires ou fonctionnels) pour valider les différentes fonctionnalités du serveur aurait facilité la détection des erreurs et évité les régressions lors des modifications successives.</p>
 </div>
 </body>
 </html>
