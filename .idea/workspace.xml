@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d29dd3a-85de-4f59-9b54-f8d2c0bfbe28" name="Changes" comment="folio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/competence1.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,12 +29,12 @@
     &quot;assignee&quot;: &quot;AlexisCerda&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/AlexisCerda/portFolio.git&quot;,
-    &quot;accountId&quot;: &quot;ec5872e8-b1b6-439f-906a-0911619d6139&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AlexisCerda/portFolio.git",
+    "accountId": "dd0c3186-d61a-4d61-a5f9-c02e96d291d7"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -85,6 +86,7 @@
       <workItem from="1749199371409" duration="168000" />
       <workItem from="1749200367268" duration="4000" />
       <workItem from="1749622528686" duration="8090000" />
+      <workItem from="1749981825045" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -110,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749981137463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="folio">
+      <option name="closed" value="true" />
+      <created>1749981708256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749981708256</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
