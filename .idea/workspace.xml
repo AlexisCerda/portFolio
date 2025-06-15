@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d29dd3a-85de-4f59-9b54-f8d2c0bfbe28" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/images/cube_de_menger.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presentation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/competence1.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competence2.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competence3.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competence4.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competence5.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competence6.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +108,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
