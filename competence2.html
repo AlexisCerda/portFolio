@@ -97,11 +97,13 @@
           <div class="rating-segment filled"></div>
           <div class="rating-segment filled"></div>
           <div class="rating-segment filled"></div>
-          <div class="rating-segment filled"></div>
+          <div class="rating-segment"></div>
           <div class="rating-segment"></div>
         </div>
       </td>
-      <td>Découpage du problème en étapes logiques avec structures adaptées.</td>
+      <td>Durant la première SAE peu de méthodes ont été donner alors il y eu une vraie difficulté lors de l'élaboration d'un algorithme. Même si, la deuxième SAE était beaucoup plus guidée ce qui a facilité de la réalisation d'algorithme et de diagramme.
+      Surtout que toutes les notions ont été vu et revu en cours en amont. Même si pour la première SAE, il a fallu des rappels importants coupant le rythme de la SAE.
+      </td>
     </tr>
     <tr>
       <td>AC 2 : Comparer des algorithmes pour des problèmes classiques</td>
@@ -114,23 +116,12 @@
           <div class="rating-segment"></div>
         </div>
       </td>
-      <td>Comparaison entre méthode exhaustive et heuristique.</td>
-    </tr>
-    <tr>
-      <td>AC 3 : Expérimenter la notion de compilation et les représentations bas niveau des données</td>
-      <td>
-        <div class="rating-bar">
-          <div class="rating-segment filled"></div>
-          <div class="rating-segment filled"></div>
-          <div class="rating-segment filled"></div>
-          <div class="rating-segment"></div>
-          <div class="rating-segment"></div>
-        </div>
+      <td>Comparaison entre méthode exhaustive et heuristique pour la première SAE. Puis une comparaison entre l'algorithme de Dijkstra et de Bellman Ford pour la seconde.
+      Ici le défi a été de trouver sur quels aspects les comparés.
       </td>
-      <td>Peu travaillé les aspects bas niveau de compilation.</td>
     </tr>
     <tr>
-      <td>AC 4 : Formaliser et mettre en œuvre des outils mathématiques pour l'informatique</td>
+      <td>AC 3 : Formaliser et mettre en œuvre des outils mathématiques pour l'informatique</td>
       <td>
         <div class="rating-bar">
           <div class="rating-segment filled"></div>
@@ -140,7 +131,7 @@
           <div class="rating-segment"></div>
         </div>
       </td>
-      <td>Utilisation des formules de distance avec racine carrée, compréhension de la complexité.</td>
+      <td>Utilisation des formules de distance avec racine carrée, compréhension de la complexité. Puis implémentation des différents algorithmes vu en cours.</td>
     </tr>
     </tbody>
   </table>
@@ -160,7 +151,7 @@
     <li>Calcul des longueurs de chemins</li>
     <li>Ajout d’une heuristique de type « plus proche voisin »</li>
   </ul>
-  <p>Optimisation difficile à valider manuellement mais gains de performance importants.</p>
+  <p>Optimisation difficile à valider manuellement, mais gains de performance importants.</p>
 
   <h3>Traces justificatives</h3>
   <ul>
@@ -175,29 +166,40 @@
   <h2>SAE S2</h2>
 
   <h3>Quel était le projet ?</h3>
-  <p>Nous avons dû implémenter une solution au problème du voyageur de commerce : trouver le chemin le plus court pour visiter huit villes une seule fois et revenir à la ville de départ.</p>
+  <p>Nous avons dû implémenter un système de graphe en Java. Puis, les algorithmes de Dijkstra et de Bellman Ford.
+  Enfin, il fallait les comparer pour trouver celui qui était le plus efficace. Nous avons dû aussi extraire des données d'un fichier, pour les traitées et les utilisées pour la création d'un graphe représentant le réseau du RAPT.
+    Pour ensuite comparer nos résultats avec ceux du site du RATP.
+  </p>
 
   <h3>Organisation collaborative</h3>
-  <p>Projet en binôme. Répartition claire : génération de la carte par Raphaël, logique algorithmique par moi.</p>
+  <p>Projet en binôme avec Logan Saget, toute la partie implémentation algorithmique a été réaliser par moi et la partie RATP et implémentation du graphe avec ça création a été réaliser par Logan.</p>
 
   <h3>Étapes, difficultés</h3>
   <ul>
-    <li>Calcul de la matrice de distance</li>
-    <li>Génération des 40320 permutations</li>
-    <li>Calcul des longueurs de chemins</li>
-    <li>Ajout d’une heuristique de type « plus proche voisin »</li>
+    <li>Représentation d’un graphe</li>
+    <li>Calcul du plus court chemin par point fixe (Bellman ford)</li>
+    <li>Calcul du meilleur chemin par Dijkstra</li>
+    <li>Validation et expérimentation</li>
+    <li>Application : recherche de plus courts chemins dans le métro
+      parisien </li>
+    <li>Mise en forme du Rendu</li>
   </ul>
-  <p>Optimisation difficile à valider manuellement mais gains de performance importants.</p>
-
+  <p>L’une des principales difficultés a été la mise en place d’une représentation efficace et modulable du graphe.
+    L’implémentation des algorithmes de Dijkstra et Bellman-Ford a également demandé une grande rigueur, car il fallait s’assurer de leur exactitude et de leur performance sur des graphes complexes.
+    Le traitement des données issues du fichier de la RATP a représenté un autre défi : leur format n'était pas toujours exploitable directement, ce qui a nécessité un travail d'adaptation avant leur intégration dans notre système. Enfin,
+    la comparaison des résultats avec ceux du site officiel de la RATP a soulevé des écarts dus à des imprécisions dans les données, rendant l'interprétation des résultats parfois difficile.</p>
   <h3>Traces justificatives</h3>
   <p>Toutes les images sont en dessous dans le même ordre</p>
   <ul>
-    <li>Affichage graphique ASCII des villes et distances</li>
-    <li>Algorithmes présents dans le fichier SAE 2-02.c</li>
+    <li>Algorithme de Bellman Ford</li>
+    <li>Implémentation en Java et explication, image du rapport</li>
   </ul>
 
   <h3>Point d'amélioration</h3>
-  <p>Explorer les algorithmes génétiques ou branch & bound.</p>
+
+  <p>Bien que les tâches aient été réparties, une collaboration plus étroite sur certaines étapes, notamment la liaison entre la structure du graphe et les algorithmes, aurait permis une meilleure compréhension mutuelle du code produit.</p>
+  <p>La comparaison entre Dijkstra et Bellman-Ford aurait gagné à être plus approfondie, notamment en analysant l’utilisation mémoire sur différents jeux de données.</p>
+  <p>Une visualisation même simple du graphe ou des résultats aurait permis une meilleure validation des résultats, et rendu le projet plus accessible.</p>
 
 </div>
 </body>
