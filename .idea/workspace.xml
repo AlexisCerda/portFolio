@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/competence3.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/competence4.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competence6.html" beforeDir="false" afterPath="$PROJECT_DIR$/competence6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       <workItem from="1749199371409" duration="168000" />
       <workItem from="1749200367268" duration="4000" />
       <workItem from="1749622528686" duration="8090000" />
-      <workItem from="1749981825045" duration="5732000" />
+      <workItem from="1749981825045" duration="7206000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -138,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749985955153</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="folio">
+      <option name="closed" value="true" />
+      <created>1749987631881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749987631881</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
